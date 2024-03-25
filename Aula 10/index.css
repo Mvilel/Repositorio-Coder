@@ -1,0 +1,31 @@
+.desafio1 { color: orange;
+
+}
+
+#lista1 { list-style-type: upper-roman;
+   
+
+}
+
+#lista2 { list-style-type: upper-roman;
+
+}
+
+li{
+  color: #1210a0;
+}
+
+h2{
+  color: aliceblue;
+}
+
+h3{
+  color: aliceblue;
+}
+
+body{
+  background-color:rgb(8, 1, 1);
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
