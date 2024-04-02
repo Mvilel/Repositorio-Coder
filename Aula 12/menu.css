@@ -1,0 +1,19 @@
+.menu {
+  list-style: none;
+  
+}
+
+.menu__item {
+  width: 15%;
+  display: inline-block;
+}
+
+.submenu{
+  position: absolute;
+  display: none;
+  width: 100px;
+}
+
+.com-submenu:hover .submenu{
+  display: block;
+}
