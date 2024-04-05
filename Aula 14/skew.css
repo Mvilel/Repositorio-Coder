@@ -1,0 +1,31 @@
+div{
+  margin: 100px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px black;
+}
+
+.box-verde{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: solid 2px black;
+  transform: skew(20deg, 10deg);
+  animation-name: distorçendo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes distorçendo{
+  0% { transform: skew(0deg , 0deg);}
+  50% { transform: skew(10deg , 5deg);}
+  100% { transform: skew(20deg , 10deg);}
+
+}
+
+
