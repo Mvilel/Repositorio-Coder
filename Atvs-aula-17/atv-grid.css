@@ -1,0 +1,54 @@
+#gradezinha{
+  display: grid;
+  height: 600px;
+  grid-template-columns: 5 repeat(200px);
+  grid-template-rows: 3 repeat(200px);
+  grid-template-areas: 
+  "oxi oxi cabeca cabeca cabeca"
+  "oxi oxi ave-maria ave-maria cleiton"
+  "navegacaum navegacaum ave-maria ave-maria rasta"
+  ;
+  gap: 20px;
+}
+
+.cabeca {
+  background-color: aqua;
+  grid-area: cabeca;
+  border: solid 5px aqua;
+  border-radius: 20px;
+}
+
+.oxi{
+  background-color: rgb(82, 214, 82);
+  grid-area: oxi;
+  border: solid 5px  rgb(82, 214, 82);
+  border-radius: 20px;
+}
+
+.ave-maria{
+  background-color: rgb(139, 44, 44);
+  grid-area: ave-maria;
+  border: solid 5px rgb(139, 44, 44);
+  border-radius: 20px;
+}
+
+.navegacaum{
+  background-color: pink;
+  grid-area: navegacaum;
+  border: solid 5px pink;
+  border-radius: 20px;
+}
+
+.cleiton{
+  background-color: green;
+  grid-area: cleiton;
+  border: solid 5px green;
+  border-radius: 20px;
+}
+
+.rasta{
+  background-color: greenyellow;
+  grid-area: rasta;
+  border: solid 5px greenyellow;
+  border-radius: 20px;
+}
